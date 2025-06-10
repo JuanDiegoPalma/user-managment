@@ -1,7 +1,8 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import UserForm from "./components/UserForm";
 import UserList from "./components/UserList";
-import { User } from "./types";
+import { User } from "./types/index";
 
 export default function App() {
   const [users, setUsers] = useState<User[]>([]);
